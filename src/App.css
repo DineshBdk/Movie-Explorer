@@ -1,0 +1,63 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    min-height:auto;
+    padding-top:4.5rem;
+    background-image: url('./assets/background.jpg');
+    background-size:cover;
+    background-attachment:fixed;    
+}
+.app{
+    margin: auto;
+    width: 80% ;
+}
+.bgcolor{
+    background-color: rgba(255, 255, 255, 0.974);
+}
+.form-control{
+   border: solid 1px rgb(78, 107, 126);
+   outline: none;
+}
+.welcome{
+    background-color:rgba(0, 0, 0, 0.688);
+    border-radius: 10px;
+}
+.body-title{
+    color:yellow;
+    font-weight: bolder;
+}
+.card-img-top{
+    width: 100%;
+    height:25rem;
+    object-fit: cover;
+}  
+.title-overflow{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+.para-overflow{
+    display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.movieDetails{
+    background-color: rgba(255, 255, 255, 0.821);
+    height:auto;
+}
+.errorpage{
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.374);
+    margin-bottom: 0px;
+    padding: 10px;
+}
